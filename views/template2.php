@@ -6,17 +6,17 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-<link rel="stylesheet" type="text/css" href="/assets/bootstrap/css/bootstrap.min.css"/>
-<link type="text/css" rel="stylesheet" href="/assets/dataTables/css/dataTables.bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="<?= BASEURL ?>/assets/bootstrap/css/bootstrap.min.css"/>
+<link type="text/css" rel="stylesheet" href="<?= BASEURL ?>/assets/dataTables/css/dataTables.bootstrap.min.css">
 <?php if($_SESSION['login'] == 1): ?>
-    <link rel="stylesheet" type="text/css" href="/assets/css/style.css?v=4"/>
-    <script type="text/javascript" src="/assets/js/ujian.js?v=4"></script>
+    <link rel="stylesheet" type="text/css" href="<?= BASEURL ?>/assets/css/style.css?v=4"/>
+    <script type="text/javascript" src="<?= BASEURL ?>/assets/js/ujian.js?v=4"></script>
 <?php else: ?>
-    <link rel="stylesheet" type="text/css" href="/assets/css/style.css?v=4"/>
-    <script type="text/javascript" src="/assets/js/ujian.js?v=4"></script>
+    <link rel="stylesheet" type="text/css" href="<?= BASEURL ?>/assets/css/style.css?v=4"/>
+    <script type="text/javascript" src="<?= BASEURL ?>/assets/js/ujian.js?v=4"></script>
 <?php endif; ?>
-<script type="text/javascript" src="/assets/jquery/jquery-2.0.2.min.js"></script>
-<script type="text/javascript" src="/assets/bootstrap/js/bootstrap.min.js"></script>   
+<script type="text/javascript" src="<?= BASEURL ?>/assets/jquery/jquery-2.0.2.min.js"></script>
+<script type="text/javascript" src="<?= BASEURL ?>/assets/bootstrap/js/bootstrap.min.js"></script>   
 <link href='https://fonts.googleapis.com/css?family=Noto+Naskh+Arabic' rel='stylesheet'>
 </head>
 <body>
