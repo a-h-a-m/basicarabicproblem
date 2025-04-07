@@ -14,9 +14,10 @@ git clone https://github.com/a-h-a-m/basicarabicproblem.git nama-folder
 5. Edit file database.php untuk disesuaikan dengan database di local.
 Lokasi file tersebut ada di config/database.php.
 Berikut cara edit konfigurasi di file tersebut.
-BASE_URL disesuaikan dengan nama-folder (folder yang dibuat di htdocs).
+BASEURL disesuaikan dengan nama-folder (folder yang dibuat di htdocs).
 DBHOST bisa dibiarkan apa adanya jika menggunakan XAMPP (biasanya localhost).
 DBUSER bisa tetap menggunakan root atau diganti sesuai settingan MySQLnya.
 DBPASS bisa dibiarkan kosong atau diganti sesuai settingan MySQLnya.
 DBNAME disesuaikan dengan nama database yang dibuat di langkah ke-3.
-6. 
+6. Buka http://localhost/nama-folder menggunakan browser.
+7. 
