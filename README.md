@@ -12,4 +12,11 @@ git clone https://github.com/a-h-a-m/basicarabicproblem.git nama-folder
 3. Membuat database MySQL
 4. Import file bap.sql yang ada di project ini ke database
 5. Edit file database.php untuk disesuaikan dengan database di local.
-Lokasi file tersebut ada di config/database.php. 
+Lokasi file tersebut ada di config/database.php.
+Berikut cara edit konfigurasi di file tersebut.
+BASE_URL disesuaikan dengan nama-folder (folder yang dibuat di htdocs).
+DBHOST bisa dibiarkan apa adanya jika menggunakan XAMPP (biasanya localhost).
+DBUSER bisa tetap menggunakan root atau diganti sesuai settingan MySQLnya.
+DBPASS bisa dibiarkan kosong atau diganti sesuai settingan MySQLnya.
+DBNAME disesuaikan dengan nama database yang dibuat di langkah ke-3.
+6. 
