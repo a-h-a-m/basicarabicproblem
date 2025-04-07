@@ -9,7 +9,7 @@ Misalnya di C:\xampp\htdocs (jika memakai Windows)
 Perintah yang dijalankan (untuk git, setelah masuk folder htdocs):
 ```cmd
 git clone https://github.com/a-h-a-m/basicarabicproblem.git nama-folder
-
+```
 3. Membuat database MySQL
 4. Import file bap.sql yang ada di project ini ke database
 5. Edit file database.php untuk disesuaikan dengan database di local.
