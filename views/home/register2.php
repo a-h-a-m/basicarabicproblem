@@ -15,7 +15,7 @@
             <div class="list-group">
                 <div class="list-group-item active">
                     <center>
-                        <img src="/assets/img/login.jpeg" width="100" height="100">
+                        <img src="<?= BASEURL ?>/assets/img/login.jpeg" width="100" height="100">
                     </center>
                     <h3 class="text-center">Halaman Pendaftaran</h3>
                     <h4 class="text-center"><b>Basic Arabic Problem</b></h4>

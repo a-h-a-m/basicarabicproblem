@@ -30,7 +30,7 @@
         <span class="icon-bar"></span>
     </button>
         <h5 align="center">
-            <img src="/assets/img/login.jpeg" width="30" height="30">
+            <img src="<?= BASEURL ?>/assets/img/login.jpeg" width="30" height="30">
             <font color="white" style="bold"><b>Basic Arabic Problem</b></font>
         </h5>
     </div>
