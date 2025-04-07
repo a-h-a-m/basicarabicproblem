@@ -29,7 +29,7 @@
                 <td><?= $dt['tanggal'] ?></td>
                 <td><?= $dt['jumlah_soal'] ?></td>
                 <td>
-                    <a class="btn btn-primary btn-sm" href="/ujian/edit/?id=<?= $dt['id'] ?>">
+                    <a class="btn btn-primary btn-sm" href="<?= BASEURL ?>/ujian/edit/?id=<?= $dt['id'] ?>">
                         <i class="glyphicon glyphicon-edit"></i> Edit &nbsp;&nbsp;<span class="label label-warning"><?= $dt['jml_soal'] ?></span>
                     </a>
                 </td>

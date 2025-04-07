@@ -24,11 +24,11 @@
    <tbody>
    <tr>
          <td>1</td>
-         <td>USP Bahasa Arab 2024&nbsp;&nbsp;&nbsp;&nbsp;<a href="/ujian/soal?id=11" class="btn btn-primary">Kerjakan</a></td>
+         <td>USP Bahasa Arab 2024&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?= BASEURL ?>/ujian/soal?id=11" class="btn btn-primary">Kerjakan</a></td>
     </tr>
     <tr>
          <td>2</td>
-         <td>Latihan USP Bahasa Arab 2025&nbsp;&nbsp;&nbsp;&nbsp;<a href="/ujian/soal?id=8" class="btn btn-primary">Kerjakan</a></td>
+         <td>Latihan USP Bahasa Arab 2025&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?= BASEURL ?>/ujian/soal?id=8" class="btn btn-primary">Kerjakan</a></td>
     </tr>
     </tbody>
 </table>

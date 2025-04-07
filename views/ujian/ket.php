@@ -31,7 +31,7 @@
 <div class="row">
    <div class="col-md-12">
 <!-- <a class="btn btn-danger disabled"> Sudah mengerjakan </a> -->
-<a class="btn btn-primary" href="/ujian/soal?id=<?= $_GET['id'] ?>">
+<a class="btn btn-primary" href="<?= BASEURL ?>/ujian/soal?id=<?= $_GET['id'] ?>">
 <i class="glyphicon glyphicon-log-in"></i> Masuk Ujian</a>
   
    </div>

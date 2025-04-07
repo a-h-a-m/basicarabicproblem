@@ -21,7 +21,7 @@
                     <h4 class="text-center"><b>Basic Arabic Problem</b></h4>
                 </div>
                 <div class="list-group-item list-group-item-info">
-                    <form class="login-form" method="post" action="/?login">
+                    <form class="login-form" method="post" action="<?= BASEURL ?>/?login">
                         <div class="input-group">
                             <div class="input-group-addon">
                                 <i class="glyphicon glyphicon-user"></i>

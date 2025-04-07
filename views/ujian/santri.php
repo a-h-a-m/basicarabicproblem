@@ -27,7 +27,7 @@ if(file_exists(__DIR__ . "/../../assets/audio/audio{$id}.{$no}.mp3")):
     <div class="row">
         <div class="col-xs-12 text-right">
             <audio controls>
-                <source src="/assets/audio/audio<?= $no ?>.mp3" type="audio/mpeg">
+                <source src="<?= BASEURL ?>/assets/audio/audio<?= $no ?>.mp3" type="audio/mpeg">
             </audio>
         </div>
     </div>
@@ -38,7 +38,7 @@ if(file_exists(__DIR__ . "/../../assets/audio/audio{$id}.{$no}.mp3")):
     <div class="row">
         <div class="col-xs-12 text-right">
             
-                <img src="/assets/img/img<?= $id ?>.<?= $no ?>a.png">
+                <img src="<?= BASEURL ?>/assets/img/img<?= $id ?>.<?= $no ?>a.png">
             
         </div>
     </div>
@@ -54,7 +54,7 @@ if(file_exists(__DIR__ . "/../../assets/audio/audio{$id}.{$no}.mp3")):
     <div class="row">
         <div class="col-xs-12 text-right">
             
-                <img src="/assets/img/img<?= $id ?>.<?= ($no - 1) ?>.png">
+                <img src="<?= BASEURL ?>/assets/img/img<?= $id ?>.<?= ($no - 1) ?>.png">
             
         </div>
     </div>
@@ -154,7 +154,7 @@ if(file_exists(__DIR__ . "/../../assets/audio/audio{$id}.{$no}.mp3")):
     <div class="row">
         <div class="col-xs-12 text-right">
             <audio controls>
-                <source src="/assets/audio/audio<?= $no ?>.mp3" type="audio/mpeg">
+                <source src="<?= BASEURL ?>/assets/audio/audio<?= $no ?>.mp3" type="audio/mpeg">
             </audio>
         </div>
     </div>
@@ -165,7 +165,7 @@ if(file_exists(__DIR__ . "/../../assets/audio/audio{$id}.{$no}.mp3")):
     <div class="row">
         <div class="col-xs-12 text-right">
             
-                <img src="/assets/img/img<?= $id ?>.<?= $no ?>a.png">
+                <img src="<?= BASEURL ?>/assets/img/img<?= $id ?>.<?= $no ?>a.png">
             
         </div>
     </div>
@@ -181,7 +181,7 @@ if(file_exists(__DIR__ . "/../../assets/audio/audio{$id}.{$no}.mp3")):
     <div class="row">
         <div class="col-xs-12 text-right">
             
-                <img src="/assets/img/img<?= $id ?>.<?= ($no - 1) ?>.png">
+                <img src="<?= BASEURL ?>/assets/img/img<?= $id ?>.<?= ($no - 1) ?>.png">
             
         </div>
     </div>

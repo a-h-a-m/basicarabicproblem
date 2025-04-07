@@ -57,7 +57,7 @@
                     <a class="btn btn-primary btn-edit" data-toggle="modal" data-target="#modal_edit_<?= $dt['id'] ?>">
                         <i class="glyphicon glyphicon-pencil"></i>
                     </a>
-                    <a class="btn btn-danger btn-delete" href="<?= "/ujian/del?id={$_GET['id']}&soal={$dt['id']}" ?>" onclick="return confirm('Anda yakin menghapus soal ini?');">
+                    <a class="btn btn-danger btn-delete" href="<?= BASEURL . "/ujian/del?id={$_GET['id']}&soal={$dt['id']}" ?>" onclick="return confirm('Anda yakin menghapus soal ini?');">
                         <i class="glyphicon glyphicon-trash"></i>
                     </a>
                 </td>

@@ -37,20 +37,20 @@
 
     <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-            <li><a href="/" class="navigation"><i class="glyphicon glyphicon-home"></i> Beranda</a></li>
+            <li><a href="<?= BASEURL ?>" class="navigation"><i class="glyphicon glyphicon-home"></i> Beranda</a></li>
             <?php if($_SESSION['login'] == 1): ?>
-                <li><a href="/ujian/list" class="navigation"><i class="glyphicon glyphicon-edit"></i> Manajemen Soal</a></li>
+                <li><a href="<?= BASEURL ?>/ujian/list" class="navigation"><i class="glyphicon glyphicon-edit"></i> Manajemen Soal</a></li>
                 <!-- <li><a href="/ujian/soal" class="navigation"><i class="glyphicon glyphicon-edit"></i> Ujian</a></li> -->
-                <li><a href="/ujian/close" class="navigation"><i class="glyphicon glyphicon-edit"></i> Soal</a></li>
-                <li><a href="/file/download" class="navigation"><i class="glyphicon glyphicon-download"></i> Download</a></li>
+                <li><a href="<?= BASEURL ?>/ujian/close" class="navigation"><i class="glyphicon glyphicon-edit"></i> Soal</a></li>
+                <li><a href="<?= BASEURL ?>/file/download" class="navigation"><i class="glyphicon glyphicon-download"></i> Download</a></li>
             <?php else: ?>
-                <li><a href="/" class="navigation"><i class="glyphicon glyphicon-edit"></i> Soal</a></li>
-                <li><a href="/file/download" class="navigation"><i class="glyphicon glyphicon-download"></i> Download</a></li>
+                <li><a href="<?= BASEURL ?>" class="navigation"><i class="glyphicon glyphicon-edit"></i> Soal</a></li>
+                <li><a href="<?= BASEURL ?>/file/download" class="navigation"><i class="glyphicon glyphicon-download"></i> Download</a></li>
             <?php endif; ?>
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <li><a href="#" class="navigation"><i class="glyphicon glyphicon-check"></i> <?= $_SESSION['nama'] ?></a></li>
-            <li><a href="/home/logout" class="navigation" onclick="return confirm('Logout dari akun Anda?')"><i class="glyphicon glyphicon-off"></i> Logout</a></li>
+            <li><a href="<?= BASEURL ?>/home/logout" class="navigation" onclick="return confirm('Logout dari akun Anda?')"><i class="glyphicon glyphicon-off"></i> Logout</a></li>
         </ul>
     </div>
    </div>

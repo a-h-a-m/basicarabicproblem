@@ -12,7 +12,7 @@
 <div class="modal fade" id="modal_edit_<?= $dt['id'] ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
    <div class="modal-dialog modal-lg">
       <div class="modal-content">    
-        <form class="form-horizontal" action="/ujian/update?id=<?= $_GET['id'] ?>" method="post" enctype="multipart/form-data">
+        <form class="form-horizontal" action="<?= BASEURL ?>/ujian/update?id=<?= $_GET['id'] ?>" method="post" enctype="multipart/form-data">
         <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"> &times; </span> </button>
             <h3 class="modal-title"></h3>

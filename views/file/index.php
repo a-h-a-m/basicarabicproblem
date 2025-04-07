@@ -31,12 +31,12 @@
                 <td><?= $dt ?></td>
                 <td>
                   <?php if(empty($ext)): ?>
-                    <a class="btn btn-success btn-sm" target="_blank" href="/files/<?= $dt; ?>">
+                    <a class="btn btn-success btn-sm" target="_blank" href="<?= BASEURL ?>/files/<?= $dt; ?>">
                         <i class="glyphicon glyphicon-download"></i> Download
                     </a>
                   <?php else: ?>
                   <?php foreach($ext as $e): ?>
-                    <a class="btn btn-success btn-sm" target="_blank" href="/files/<?= $dt; ?>.<?= $e; ?>">
+                    <a class="btn btn-success btn-sm" target="_blank" href="<?= BASEURL ?>/files/<?= $dt; ?>.<?= $e; ?>">
                         <i class="glyphicon glyphicon-download"></i> Download <?= $e; ?>
                     </a>
                   <?php endforeach; ?>

@@ -20,4 +20,6 @@ DBUSER bisa tetap menggunakan root atau diganti sesuai settingan MySQLnya.
 DBPASS bisa dibiarkan kosong atau diganti sesuai settingan MySQLnya.
 DBNAME disesuaikan dengan nama database yang dibuat di langkah ke-3.
 6. Buka http://localhost/nama-folder menggunakan browser.
-7. 
+7. Masukkan nama lengkap "coba".
+8. Masukkan password "a".
+Berhasil
